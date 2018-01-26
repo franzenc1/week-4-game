@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	
+  		<head>
+  			<meta charset="utf-8">
+  			<title>week-4-game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		</head>
+
+<body>
+	
+	<header>CrystalsCollector!</header>
+  	
+  	<div id="instructions">
+  		<p>You will be given a random number at the start of the game.</p>
+
+  		<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+  		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+  		<p>The value of each crystal is hidden from you until you click on it.</p>
+
+  		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+  	</div>
+	
+	<div class="random-number"><h1><span id="randomNumber"></span></h1>
+   </div>
+
+	<div class="counter">
+        <h3>Wins: <span id="winsCounter">0</span></h3> 
+        <h3>Losses: <span id="lossesCounter">0</span></h3>
+  </div>
+
+  <div class="crystals">
+
+	 <button id="crystal-image" class="crystal-one"><h1><span ></span></h1></button>  
+   <button id="crystal-image" class="crystal-two"><h1><span ></span></h1></button>
+   <button id="crystal-image" class="crystal-three"><h1><span ></span></h1></button>
+   <button id="crystal-image" class="crystal-four"><h1><span ></span></h1></button>
+
+	</div>		
+
+<div id="announcement"><h2>Your total score is:</h2>
+
+<div class="scoreboard"><h2><span id="userScore"></h2> </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  <body>
+
+		
+	</body>
+
+</html>
